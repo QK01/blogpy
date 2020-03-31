@@ -1,3 +1,13 @@
 # virtual Env
 venv/
 .vscode/
+
+#database
+db.sqlite3
+
+#migrations
+blog/migrations/
+
+
+
+
