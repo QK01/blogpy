@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'ckeditor',
+    'blog',
     
 ]
 
@@ -119,4 +120,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+
+# Ckeditor Settings
+#   Static Files
+STATIC_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
+
+
+# CKeditor
+CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
